@@ -13,6 +13,8 @@
 		0A01357328F4A6D0006C0AB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A01357228F4A6D0006C0AB7 /* Preview Assets.xcassets */; };
 		0A1386C8292B167A006F0776 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1386C7292B167A006F0776 /* ErrorWrapper.swift */; };
 		0A1386CC292B1A92006F0776 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1386CB292B1A92006F0776 /* ErrorView.swift */; };
+		0A163B7B292D4DDA00F9A649 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A163B7A292D4DDA00F9A649 /* MeetingTimerView.swift */; };
+		0A163B7D292D53F100F9A649 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A163B7C292D53F100F9A649 /* SpeakerArc.swift */; };
 		0A1C1AB6291EE889003C12F5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C1AB5291EE889003C12F5 /* ThemeView.swift */; };
 		0A1C1AB8291EE9BF003C12F5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C1AB7291EE9BF003C12F5 /* ThemePicker.swift */; };
 		0A6AD52D28F5E1E4007FB894 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AD52C28F5E1E4007FB894 /* Theme.swift */; };
@@ -42,6 +44,8 @@
 		0A01357228F4A6D0006C0AB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A1386C7292B167A006F0776 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		0A1386CB292B1A92006F0776 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		0A163B7A292D4DDA00F9A649 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		0A163B7C292D53F100F9A649 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		0A1C1AB5291EE889003C12F5 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		0A1C1AB7291EE9BF003C12F5 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		0A6AD52C28F5E1E4007FB894 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				0A1386CB292B1A92006F0776 /* ErrorView.swift */,
 				0AC51D7C2923488400FE8820 /* MeetingHeaderView.swift */,
 				0AC51D8C292356B300FE8820 /* MeetingFooterView.swift */,
+				0A163B7A292D4DDA00F9A649 /* MeetingTimerView.swift */,
 				0A6AD53028F5E566007FB894 /* CardView.swift */,
 				0A6AD53428F5F8D7007FB894 /* ScrumsView.swift */,
 				0A1C1AB5291EE889003C12F5 /* ThemeView.swift */,
@@ -108,6 +113,7 @@
 				0ADC97A328FDECC30019DB5C /* DetailView.swift */,
 				0A6AD53228F5F5B4007FB894 /* TrailingIconLabelStyle.swift */,
 				0A7E3825290C6FD100924A41 /* DetailEditView.swift */,
+				0A163B7C292D53F100F9A649 /* SpeakerArc.swift */,
 				0AC51D8229234F2600FE8820 /* ScrumProgressViewStyle.swift */,
 				0A01356F28F4A6D0006C0AB7 /* Assets.xcassets */,
 				0A7526D92923FAA900D6BDC1 /* Resources */,
@@ -228,6 +234,7 @@
 				0A7E3826290C6FD100924A41 /* DetailEditView.swift in Sources */,
 				0AC51D8D292356B300FE8820 /* MeetingFooterView.swift in Sources */,
 				0A6AD53328F5F5B4007FB894 /* TrailingIconLabelStyle.swift in Sources */,
+				0A163B7B292D4DDA00F9A649 /* MeetingTimerView.swift in Sources */,
 				0A6AD52D28F5E1E4007FB894 /* Theme.swift in Sources */,
 				0A1386C8292B167A006F0776 /* ErrorWrapper.swift in Sources */,
 				0A6AD53528F5F8D7007FB894 /* ScrumsView.swift in Sources */,
@@ -238,6 +245,7 @@
 				0A01356C28F4A6CD006C0AB7 /* Scrumdinger2App.swift in Sources */,
 				0A1C1AB6291EE889003C12F5 /* ThemeView.swift in Sources */,
 				0A6AD53128F5E566007FB894 /* CardView.swift in Sources */,
+				0A163B7D292D53F100F9A649 /* SpeakerArc.swift in Sources */,
 				0AC51D7F29234ED800FE8820 /* ScrumTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
